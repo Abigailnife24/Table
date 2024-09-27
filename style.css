@@ -1,0 +1,35 @@
+*{
+   box-sizing: border-box;
+}
+
+table{
+    border-collapse:collapse;
+    border-radius: 16px;
+    margin:auto;
+}
+
+th,td {
+    border:1px solid;
+    padding: 20px;
+    font-size: 14px;
+    border-color: rgba(128, 128, 128, 0.349);
+}
+
+th{
+    color: #fff;
+    background-color: blueviolet;
+}
+
+th:first-child {
+    border-top-left-radius: 15px;
+    border:none;
+}
+
+th:last-child {
+    border-top-right-radius: 15px;
+    border:none;
+}
+
+tr:nth-child(odd) {
+   background-color: darkgray; 
+}
